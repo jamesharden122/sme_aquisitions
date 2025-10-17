@@ -1,0 +1,13 @@
+out <- build_split_gp_lp(
+  df            = df,
+  idx           = c(29, 34),
+  years         = 15,
+  growth        = 0.03,
+  loan_amount   = 2000000,
+  annual_rate   = 0.06,
+  debt_years    = 10,
+  freq          = 1,
+  gp_share      = 0.20,
+  lp_share      = 0.80,
+  lp_payout_ratio = 0.70
+)
